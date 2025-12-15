@@ -1,0 +1,13 @@
+#!/bin/bash
+#extra-keys=[]
+cd ~/.termux || exit
+
+if [ -f "off" ]; then
+    mv off termux.properties
+    echo "Keys ON"
+else
+    mv termux.properties off
+    echo "Keys OFF"
+fi
+echo "if didnt work, close app and re-open, it works"
+termux-reload-settings
