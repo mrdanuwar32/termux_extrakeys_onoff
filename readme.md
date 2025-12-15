@@ -1,9 +1,5 @@
 setup commands :
-pkg update -y && pkg upgrade -y
-cd ~ && git clone https://github.com/mrdanuwar32/termux_extrakeys_onoff/
-mv keys ~
-mv off ~/.termux
-chmod +x keys
+pkg update -y && pkg upgrade -y && cd ~ && git clone https://github.com/mrdanuwar32/termux_extrakeys_onoff/ && cd termux_extrakeys_onoff && mv keys ~ && mv off ~/.termux && chmod +x keys && rm -rf termux_extrakeys_onoff
 
 usage:
 run this commond to turn on and off the extra keys of termux:
