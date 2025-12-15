@@ -1,0 +1,4 @@
+extra-keys=[]
+#place this file at .termux file of termux home directory
+#mv off .termux
+#rm termux.properties
